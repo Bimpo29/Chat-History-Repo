@@ -1,0 +1,13 @@
+# AI Tools
+.claude
+.gemini
+.opencode
+# Environment and secrets
+**/.env
+**/.env.local
+*.pem
+*.key
+*.log
+# Temp
+*.tmp
+*.temp
