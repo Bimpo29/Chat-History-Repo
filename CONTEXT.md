@@ -59,16 +59,20 @@ Only `[SCENE]` ever changes. NOTE — the user locked these edits:
 - Preview links on `*.monkeycode-ai.live` die when the dev VM goes offline — never rely on them as the only copy.
 - Push every deliverable to this repo so it is never lost.
 
-## 7 · Current progress — Video #10 (leadership / agriculture origin story)
+## 7 · Current progress — Video ink 4 (famine / clay jar survival story)
 
-Story: king, prince, servant (protagonist), royal guards, opponent kidnappers, war, bronze weapons.
+Story: famine threat forces a village to move in 10 days; the family packs grain into sealed clay jars; only 3 jars exist so they make more from river clay + water + fire; cave = clay workshop (frames 65–80).
 
-- Character Masters (branded, premium clothing, hands + hair, `ink.` emblem): DONE — `Video10_CharacterMasters_Branded.html` (was generated in a previous session; deliverable LOST — never pushed, only on preview server).
-- Batch 1 (Images 6–95, 90 frames): DONE — `Video10_Batch1_ImagePrompts.html` (deliverable LOST — never pushed).
-- Part 1 Ending flipbook (Images 102–129, 28 frames): DONE — `Video10_Part1_Ending_Sequence.html` (deliverable LOST).
-- Gemini storyboard prompt (27 frames, no text): DONE — `Video10_Part1_Storyboard_Prompt.txt` (deliverable LOST).
-- **Batch 2 (Images 96–207): script beats were provided at the end of the last session but image prompts were NEVER generated — PENDING.** (Full batch 2 beats are in the `Chat` file, line ~328.)
-- User then said they are moving to the NEXT video — new script / title / beats to be sent.
+- Source of truth for Batch 1: `BATCH 1 Video ink 4.docx` (corrected beats, repo commit `d44580c`) — NOT the older `Video_ink4_Descriptions_v2.docx`.
+- Character Masters (simple style: crude stickman, brown fur cloth, messy hair — NOT premium/ink. logo): embedded at the top of the complete HTML, 6 masters (teaching / father / mother / children / village / raider on horse).
+- Batch 1 (Images 1–82): DONE — `Video_ink4_Complete_ImagePrompts_Batch1.html` (masters + all 82 frames in full locked command), built from `/tmp/opencode/batch1_scenes_v4.json` (v4 scenes rebuilt strictly from corrected beats), pushed to `Videos` + `Chat-History-Repo`.
+- v3 mistakes fixed in v4: image 41 = heading "FOUR THREATS" + four labeled icons (bowl/sword/cave/beast); 50 = empty bowl icon + "FIRST THREAT"; 63 = small burning stick branch (not campfire); 58 = jar half-finished from clay lump; 72/74/76 = teaching figure one finger "Until" / "Once It's Shaped" / "Then"; 80 = hardened jar placed on a rock inside the cave; 81 = stone icon + text "LIKE STONE"; 82 = both hands open "And Now"; 40 = both hands open raised "There are"; 46 = one finger "And At Last".
+- **Batch 3 (Images 132–217): beats are in `FINAL BATCH.docx` (Monkeycode repo) — PENDING, wait for user's Batch 1 test feedback first.**
+- Style note (user locked): character prompts must be SIMPLE — reject "too much detail," "AI slop," art jargon (cel-shaded / cinematic / vector / flat 2D / rich / painterly / lighting / shadows / glow). Use MS Paint beginner / childish amateur language.
+
+## 7b · Delivery rule — live server preview
+
+- User expects image-prompt files delivered in a live server preview (previous session's preview server is dead), not just chat dumps / file links. Start `python3 -m http.server` (or similar) in the deliverable dir and hand the direct URL. Preview links on `*.monkeycode-ai.live` still die when the VM goes offline — always also push to the repos.
 
 ## 8 · Repo layout
 
