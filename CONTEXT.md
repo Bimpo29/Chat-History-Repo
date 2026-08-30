@@ -53,15 +53,20 @@ Only `[SCENE]` ever changes. NOTE — the user locked these edits:
 3. **"simple ..." filler words** in scene or character prompts — banned (make images look simple).
 4. **Too much detail in character masters** (hands, expressions, actions) — masters are name + clothing only; clothing comes from the user.
 
-## 5 · The workflow (locked)
+## 5 · The workflow (locked — MY ROLE, confirmed by user)
 
-1. User gives beats divided, with `(env)` / `(white background)` tags + image numbering.
-2. I write the scene DESCRIPTION in the user's own writing style — human feel, 0% AI feel.
-3. User reviews and edits, sends back.
-4. I generate the final IMAGE PROMPTS HTML from the approved descriptions.
-5. Deliver via downloadable HTML + raw content in chat.
-6. For every NEW video: the user writes the first 100 descriptions; after that I can write them.
-7. Character clothing step: before writing any character masters for a script part, list ALL characters in that part and ask the user what clothing each should have. Only after they answer do I write the masters (name + stickman/stick figure + clothing only).
+**My role, step by step:**
+1. User hands me a script for a video (e.g. Video ink 4) AND some beat descriptions (to show me the style of that video).
+2. I analyse + read the script, then write descriptions for the REMAINING beats in the user's own style — not too much detail, exactly how the user writes.
+3. Push it to the repo AND give the user a REAL downloadable DOCX file (a file, not file content pasted in chat).
+4. User reviews, makes adjustments, puts the corrected batch back in the repo → then we move to step 2.
+5. Step 2: when the user's corrected Batch is in the repo for that video, I read it and write IMAGE PROMPTS exactly like the references in `PROMPT_STYLE_REFERENCE.txt`.
+6. Deliver as a downloadable HTML file with MASTERS + SCENES together (masters NOT in a separate file).
+7. Then the user does their remaining work.
+
+**Image prompt notes (locked):**
+- I do NOT add the "provided in image 1" / "provided in image X" line in image prompts — the USER adds those themselves per their requirements. Leave character refs by name; the user inserts the image-reference numbers.
+- Character clothing step: before writing any character masters for a script part, list ALL characters in that part and ask the user what clothing each should have. Only after they answer do I write the masters (name + stickman/stick figure + clothing only).
 
 ## 5b · Reference files (always pull from repo, never from my small memory)
 
@@ -81,6 +86,7 @@ Story: famine threat forces a village to move in 10 days; the family packs grain
 - Source of truth for Batch 1: `BATCH 1 Video ink 4.docx` (corrected beats, repo commit `d44580c`) — NOT the older `Video_ink4_Descriptions_v2.docx`.
 - Character Masters (simple style: crude stickman, brown fur cloth, messy hair — NOT premium/ink. logo): embedded at the top of the complete HTML, 6 masters (teaching / father / mother / children / village / raider on horse).
 - Batch 1 (Images 1–82): DONE — `Video_ink4_Complete_ImagePrompts_Batch1.html` (masters + all 82 frames in full locked command), built from `/tmp/opencode/batch1_scenes_v4.json` (v4 scenes rebuilt strictly from corrected beats), pushed to `Videos` + `Chat-History-Repo`.
+- NOTE: these masters were written BEFORE the user's new rules (name + clothing only, clothing decided by user). They will need REWORK when Batch 1 resumes — wait for the user to choose clothing.
 - v3 mistakes fixed in v4: image 41 = heading "FOUR THREATS" + four labeled icons (bowl/sword/cave/beast); 50 = empty bowl icon + "FIRST THREAT"; 63 = small burning stick branch (not campfire); 58 = jar half-finished from clay lump; 72/74/76 = teaching figure one finger "Until" / "Once It's Shaped" / "Then"; 80 = hardened jar placed on a rock inside the cave; 81 = stone icon + text "LIKE STONE"; 82 = both hands open "And Now"; 40 = both hands open raised "There are"; 46 = one finger "And At Last".
 - **Batch 3 (Images 132–217): beats are in `FINAL BATCH.docx` (Monkeycode repo) — PENDING, wait for user's Batch 1 test feedback first.**
 - Style note (user locked): character prompts must be SIMPLE — reject "too much detail," "AI slop," art jargon (cel-shaded / cinematic / vector / flat 2D / rich / painterly / lighting / shadows / glow). Use MS Paint beginner / childish amateur language.
