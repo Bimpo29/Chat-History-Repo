@@ -22,6 +22,12 @@ Only `[SCENE]` ever changes. NOTE — the user locked these edits:
 - Removed "beginner drawing style" → replaced with "Ms paint, painted, flat clean style".
 - Removed "childish drawing".
 - Character Masters get their own separate file, each master WITH its full locked command (never omit the command there).
+- Scene prompt writing style MUST follow the user's real prompts in `PROMPT_STYLE_REFERENCE.txt` (read it every task — NEVER write scenes from my own memory):
+  - Use "Scene : " prefix after the style clause.
+  - Character refs inside scenes: "provided in image 1 / as reference"; new chars: "not provided , so create it".
+  - Text cards: `a leader line to text as written by hand but clean , reads 'TEXT'`; key words colored red.
+  - Icon cards: "with a icon of <thing> under it".
+  - Env scenes end with "background: <concrete details>" (outdoor always mention sky; grey sky / sky; NO sun/moon/stars unless asked).
 
 ## 3 · House rules (locked, never break)
 
@@ -29,20 +35,23 @@ Only `[SCENE]` ever changes. NOTE — the user locked these edits:
 - No red X / cross marks for negation unless requested.
 - Skies: outdoor scenes never leave sky empty, but never add moon / sun / stars unless asked.
 - Weather: held constant within a continuity chain.
-- Characters: every character must have a concrete ACTION verb + EXPRESSION. Never mere "standing" boilerplate.
+- Characters in SCENES: every character must have a concrete ACTION verb + EXPRESSION. Never mere "standing" boilerplate.
+- NO "simple ..." filler words anywhere (scene or character prompts) — user says they make the image look simple. Use the wording style from `PROMPT_STYLE_REFERENCE.txt` instead.
+- Character MASTER prompts: name only (with "stickman" / "stick figure" in it, e.g. "ancient stickman") + clothing at the end. NO expression, NO hands, NO action detail at master time. Clothing is decided BY THE USER — I must first list ALL characters in that script part and ask the user what clothing each should have; only after they answer do I write masters.
 - White-card text: medium-weight, NOT bold.
 - Character masters: built fresh per video, lettering restarts at A.
 - Env scenes: always include an explicit `background:` clause with concrete details.
 - Reuse: never write "same as previous" shorthand — spell out the full reuse in text.
 - Character references: by name (ancient figure / modern figure / teaching figure / servant stickman / etc.) — never "YOU" and never master letters.
 - Labelling lines: a leader line pointing to a text label.
-- Branding: characters wear the `ink.` logo (small, red "ink." text on black emblem) on the chest.
-- Clothing: characters must have BEST / beautiful detailed clothing (never "simple"), plus hands and hair.
+- Branding: characters wear the `ink.` logo (small, red "ink." text on black emblem) on the chest (only when the user's reference style calls for it).
 
 ## 4 · Mistakes flagged by the user (NEVER repeat)
 
 1. **Expression + action not described properly per the beat line.** Every frame must state each character's expression AND action per the beat.
 2. **Empty labels.** When the beat only says "labelling text" / "labelling line text" WITHOUT the actual text, I must write the label text MYSELF from the narration. Never leave a leader line pointing to nothing.
+3. **"simple ..." filler words** in scene or character prompts — banned (make images look simple).
+4. **Too much detail in character masters** (hands, expressions, actions) — masters are name + clothing only; clothing comes from the user.
 
 ## 5 · The workflow (locked)
 
@@ -52,6 +61,12 @@ Only `[SCENE]` ever changes. NOTE — the user locked these edits:
 4. I generate the final IMAGE PROMPTS HTML from the approved descriptions.
 5. Deliver via downloadable HTML + raw content in chat.
 6. For every NEW video: the user writes the first 100 descriptions; after that I can write them.
+7. Character clothing step: before writing any character masters for a script part, list ALL characters in that part and ask the user what clothing each should have. Only after they answer do I write the masters (name + stickman/stick figure + clothing only).
+
+## 5b · Reference files (always pull from repo, never from my small memory)
+
+- `PROMPT_STYLE_REFERENCE.txt` — the user's real scene prompts (17 examples). Read before every prompt-writing task.
+- `Workflow.docx`, addenda, `FRAME _ TYPES .ink.docx`, `Settings-WPS Office.docx`, `Images—ink.docx` — in `Monkeycode` repo.
 
 ## 6 · Delivery rules
 
