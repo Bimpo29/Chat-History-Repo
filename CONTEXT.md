@@ -100,4 +100,9 @@ Story: famine threat forces a village to move in 10 days; the family packs grain
 - `CONTEXT.md` — this file. Update + push at the end of every task / session.
 - `Chat` — full copy of the previous session's chat export (the source of this context).
 - `deliverables/` — every generated HTML / text deliverable, saved per video.
+- `videos-repo-backup/` — archive of ALL files from the old `Videos` repo (moved here 2026-08-30, then `Videos` repo was emptied for a fresh start).
+- **Repos (updated 2026-08-30):**
+  - `https://github.com/Bimpo29/INK-CHANNEL-MEMORY.git` — THIS repo. My memory. Formerly `Chat-History-Repo` (renamed). Holds CONTEXT.md + deliverables + archived Videos content.
+  - `https://github.com/Bimpo29/Videos.git` — EMPTIED (fresh start). User uploads corrected batches / new scripts here; deliverables no longer pushed here.
+  - `https://github.com/Bimpo29/Monkeycode.git` — rulebooks/workflow docs (Workflow.docx, addenda, FRAME _ TYPES .ink.docx, Settings-WPS Office.docx, Images—ink.docx, FINAL BATCH.docx).
 - Push every change with `GIT_CONFIG_COUNT=0` (the environment injects a broken credential helper; `GIT_CONFIG_COUNT=0` disables it, and the repo-local `credential.helper=store` handles auth).
