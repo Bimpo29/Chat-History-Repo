@@ -1,0 +1,74 @@
+PROMPT STYLE REFERENCE — USER'S ACTUAL PREVIOUS IMAGE PROMPTS (Video #10 era)
+===============================================================================
+Source: user pasted these in chat (session). Save + backup. Use as style template
+for every scene/character prompt. Never invent style from my own memory.
+
+GENERAL OBSERVATIONS FROM THESE EXAMPLES
+----------------------------------------
+- Starts: "MS Paint painted flat clean style , white background. Scene : ..."
+  (some omit "white background" when scene has its own background clause)
+- "Scene : " prefix before the scene description.
+- Character refs inside scenes: "provided in image 1 / image 2 / as reference".
+- New characters inside a scene: "create it", "not provided , so create it".
+- Text cards: 'a leader line to text as written by hand but clean , reads "TEXT"'
+  (earlier videos sometimes "as written by hand, reads"). Text in single quotes
+  inside the double-quoted prompt. Key words colored red (e.g. STORM red).
+- Icon cards: "with a icon of <thing> under it" (rain cloud, mammoth).
+- Env scenes end with: "background: <concrete details>". Always sky mentioned
+  outdoors (grey sky, sky). No sun/moon/stars unless asked.
+- Filler words that make images look simple: "simple ..." — user banned these.
+- Character masters: name only (with "stickman/stick figure") + clothing. NO
+  expression, NO hands, NO action detail at character-master time.
+
+THE 17 EXAMPLE PROMPTS (verbatim)
+---------------------------------
+1.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style , white background. the teaching stick figure provided in image 1 , with one finger raised, a leader line to text as written by hand , reads 'IT SAYS'." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+2.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style ,white background . Scene : a king stick figure , provided as reference ,on one side walking toward a trap on the ground, the trap built like a rabbit trap, a leader line to text as written by hand but clean , reads 'TRAP'." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+3.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style Scene : the king stick figure still thinking in his bedroom, same thinking pose, text , as written by hand but clean reads : thinking , background: same." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+4.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style . Scene : the teaching stick figure provided , with a no-like finger movement, a leader line to text as written by hand but clean , reads 'NO REPLY'." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+5.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style . Scene : the same prison cell, a guard stick figure throwing water from a glass at the prince, showing that they beat him and now he is unconscious and the guard is reviving him by throwing water, background: dark prison cell, iron bars." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+6.
+higgsfield generate create gpt_image_2 --prompt "MS Paint ,painted ,flat clean style . Scene : the prince's camp on the island empty, tents empty, no one there, a leader line to text as written by hand but clean reads 'HE IS TAKEN', background: empty island camp, tents, dark trees." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+7.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style , Scene : an exchange scene, two opponent stick figures provided in image 1 , giving the prince stick figure, provided in image 2 , one king stick figure provided in image 3 , handing over the queen stick figure not provided , so create it ,also put ink. on his clothing , with a  crown, background: a palace courtyard, stone walls, sky." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+8.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style , white background. the teaching stick figure showing three fingers, counting, a leader line to text as written by hand but clean , reads 'THREE WEEKS'." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+9.
+higgsfield generate create gpt_image_2 --prompt "MS Paint ,painted ,flat ,clean style ,white background. scene : a diagram of a single human eye, leader lines to text , as written by hand but clean, reads 'HUMAN EYE', 'CANNOT SEE THEM'." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+10.
+higgsfield generate create gpt_image_2 --prompt "MS Paint flat clean style white background. Scene : a diagram of a leaf with a plain sun icon above, light lines entering the leaf and an O2 bubble coming out, leader lines to text  as written by hand but clean reads 'LIGHT IN', 'FOOD', 'O2'." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+11.
+higgsfield generate create gpt_image_2 --prompt "MS Paint  painted flat clean style, white background. Scene : the teaching figure pointing one finger toward the camera, with text as written by hand but clean,  beside him reads 'NEVER WATCHED YOU PREDICT'." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+12.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style , white background. Scene : Text as hand written but clean reads "OR A STORM" where STROM is written in red ,with a icon of Raining cloud like : rain emoji under it."--aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+13.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style , white background. Scene : Text as hand written but clean reads "A HERD" where Herd is written in red ,with a icon of mammoth under it."--aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+14.
+higgsfield generate create gpt_image_2 --prompt "MS Paint  painted flat clean style . the ancient figure provided in image 1 working alongside other ancient tribe figures doing usual morning tasks, all alike. background: the camp with fern-and-hide shelters, a cooking fire, grey sky." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+15.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style . Scene : ancient tribe figures provided in image 1 , in the shelter, one figure pressing a plant onto another figure's wounded arm, caring faces. background: inside the fern-and-hide shelter, a small fire." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+16.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style . Scene : an ancient tribe figure provided in image 1 , organizing the harvest in the field, directing others who carry bundles of crops. background: the field with cut crops in bundles, the shelter behind, gray sky with some clouds." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
+
+17.
+higgsfield generate create gpt_image_2 --prompt "MS Paint painted flat clean style . the modern figure now inside the voting center, walking toward a voting booth room. background: the voting center interior with a row of booths, muted indoor lighting." --aspect_ratio 16:9 --wait 2>&1 | tail -3 &
