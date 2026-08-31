@@ -52,6 +52,8 @@ Only `[SCENE]` ever changes. NOTE — the user locked these edits:
 2. **Empty labels.** When the beat only says "labelling text" / "labelling line text" WITHOUT the actual text, I must write the label text MYSELF from the narration. Never leave a leader line pointing to nothing.
 3. **"simple ..." filler words** in scene or character prompts — banned (make images look simple).
 4. **Too much detail in character masters** (hands, expressions, actions) — masters are name + clothing only; clothing comes from the user.
+5. **Crowded scenes.** When the beat says "the single ancient Stickman" → ONE figure; "group of 4 to 5 tribe figures" → only that many. I kept pulling in the whole family / extra figures. Match the beat's headcount exactly.
+6. **Adding things not in the description.** No father/teacher standing in a white-background text card, no "serious face" / extra actions / extra characters unless the beat states them (user: "dont include that things which i haven't mentioned in description").
 
 ## 5 · The workflow (locked — MY ROLE, confirmed by user)
 
@@ -84,11 +86,15 @@ Only `[SCENE]` ever changes. NOTE — the user locked these edits:
 Story: famine threat forces a village to move in 10 days; the family packs grain into sealed clay jars; only 3 jars exist so they make more from river clay + water + fire; cave = clay workshop (frames 65–80).
 
 - Source of truth for Batch 1: `BATCH 1 Video ink 4.docx` (corrected beats, repo commit `d44580c`) — NOT the older `Video_ink4_Descriptions_v2.docx`.
+- **FULL corrected beats (1–158)**: `Video ink 4 Beats Description (AI continued).docx` — user's own beats 1–82 + my continuation 83–158, then USER CORRECTED 83–158 in Videos repo (2026-08-30). This is now the definitive beats file for Video ink 4. Lessons from user's corrections: match headcount exactly (single stickman where beat says single), no extra characters/actions/expressions not in the beat.
+- **Image Prompts (1–158)**: DONE — `deliverables/Video_ink4_ImagePrompts_1-158.html` (scenes ONLY, no masters — user provides character references; characters referenced by name + work: teaching stick figure, father ancient stickman, mother ancient stickman, son stickman, ancient tribe stickman figures, ancient stickman on horse). User adds the "provided in image X" lines themselves. Pushed to memory repo only (NOT Videos). Command wrapper = user's reference format ("MS Paint painted flat clean style , white background. Scene : ..." / env: "MS Paint painted flat clean style . Scene : ... , background: ...").
+- Character refs for this video (user's own, reused from previous videos): teacher = #1 (teaching stick figure), father = #2, mother/son = user does himself, village group = "ancient tribe stickman figures", messenger/raiders = "ancient stickman on horse".
 - Character Masters (simple style: crude stickman, brown fur cloth, messy hair — NOT premium/ink. logo): embedded at the top of the complete HTML, 6 masters (teaching / father / mother / children / village / raider on horse).
 - Batch 1 (Images 1–82): DONE — `Video_ink4_Complete_ImagePrompts_Batch1.html` (masters + all 82 frames in full locked command), built from `/tmp/opencode/batch1_scenes_v4.json` (v4 scenes rebuilt strictly from corrected beats), pushed to `Videos` + `Chat-History-Repo`.
 - NOTE: these masters were written BEFORE the user's new rules (name + clothing only, clothing decided by user). They will need REWORK when Batch 1 resumes — wait for the user to choose clothing.
 - v3 mistakes fixed in v4: image 41 = heading "FOUR THREATS" + four labeled icons (bowl/sword/cave/beast); 50 = empty bowl icon + "FIRST THREAT"; 63 = small burning stick branch (not campfire); 58 = jar half-finished from clay lump; 72/74/76 = teaching figure one finger "Until" / "Once It's Shaped" / "Then"; 80 = hardened jar placed on a rock inside the cave; 81 = stone icon + text "LIKE STONE"; 82 = both hands open "And Now"; 40 = both hands open raised "There are"; 46 = one finger "And At Last".
 - **Batch 3 (Images 132–217): beats are in `FINAL BATCH.docx` (Monkeycode repo) — PENDING, wait for user's Batch 1 test feedback first.**
+- NOTE: the masters written earlier (6 crude stickmen with brown fur cloth) were written BEFORE the user's new rules (name + clothing only, clothing decided by user). User confirmed for Video ink 4 they already have teacher + father refs, will do mother/son themselves, and image prompts just reference "ancient tribe stickman figures" and "ancient stickman on horse" by name — so NO masters are generated for this video.
 - Style note (user locked): character prompts must be SIMPLE — reject "too much detail," "AI slop," art jargon (cel-shaded / cinematic / vector / flat 2D / rich / painterly / lighting / shadows / glow). Use MS Paint beginner / childish amateur language.
 
 ## 7b · Delivery rule — live server preview
