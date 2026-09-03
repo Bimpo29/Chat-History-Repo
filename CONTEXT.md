@@ -24,8 +24,8 @@ Only `[SCENE]` ever changes. NOTE — the user locked these edits:
 - Character Masters get their own separate file, each master WITH its full locked command (never omit the command there).
 - Scene prompt writing style MUST follow the user's real prompts in `PROMPT_STYLE_REFERENCE.txt` (read it every task — NEVER write scenes from my own memory):
   - Use "Scene : " prefix after the style clause.
-  - Character refs inside scenes: "provided in image 1 / as reference"; new chars: "not provided , so create it".
-  - Text cards: `a leader line to text as written by hand but clean , reads 'TEXT'`; key words colored red.
+- Character refs inside scenes: "provided in image 1 / as reference"; new chars: "not provided , so create it".
+- Text cards: `short labelling line with text as written by hand but clean , reads 'TEXT'`; key words colored red. (User flag 2026-08-30: NO "a leader line to text" — long leader lines make a mess. Use a SHORT labelling line pointing to the text.)
   - Icon cards: "with a icon of <thing> under it".
   - Env scenes end with "background: <concrete details>" (outdoor always mention sky; grey sky / sky; NO sun/moon/stars unless asked).
 
